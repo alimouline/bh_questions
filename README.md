@@ -6,9 +6,9 @@
 
 ## Question Q3
 
-To run the script:
+**The definition of PASS is when the agent recognises the intent correctly (probabilistic checked with an LLM) and goes to the next step (question) correctly (determinsitic)**
 
-The script that evaluates the test runs: check_conversation.py. To run  
+The script that evaluates the test runs: check_conversation.py. To run:  
 
 1. Set a key an Anthropic key in a .env file in the same dir. 
 
@@ -33,4 +33,4 @@ thread_02  PASS
       expected: _complete (start renewal) | agent: _complete (start renewal) | ok
   note: 1 caller turn(s) after the flow ended were not checked
 
-The definition of PASS is when the agent recognises the intent correctly (probabilistic checked with an LLM) and goes to the next step (question) correctly (determinsitic) 
+ 
